@@ -2,37 +2,119 @@
    THIS IS MYKAH FONTENOT'S AWESOME CODE...
 */
 
- .circle {
-    width: 300px;
-    height: 300px;
-    background: black;  
-    float:left; 
-    text-align: center;
-    top: 50%;
-    position: relative;
-}
-.segment_1{
-    background: red;
-    border-top-left-radius: 100%;
-}   
-.segment_2{
-    background:  yellow; 
-    border-top-right-radius: 100%;
-}
-.segment_3{
-    background: blue;
-    border-bottom-left-radius: 100%;
-}
-.segment_4{
-    background: green;
-    border-bottom-right-radius: 100%;
-}
-.colorName {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+/* Tags */
+body {
+    margin: 0px
+} 
+
+/* Ids */
 #container{
-    width:600px; 
+    width:100%; 
     margin:auto;
- }   
+ }  
+
+#navBar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+/* Classes */
+.navSection {
+    float:left;
+}
+.sectionLogo {
+    width: 100px;
+    height: 100%;
+    background-color: red;    
+}
+.sectionLogo p {
+    text-align: center;
+    margin:auto;
+    padding-top: 35px;
+}
+.section1 {
+    width:120px;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.section2 {
+    width:120px;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.section3 {
+    width:120px;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.section4 {
+    width:120px;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.search {
+    width: 400px;
+    height: 100%;
+    padding-top: 30px;
+}
+.searchText {
+    width: 90%;
+    height: 33%;
+    margin: auto;
+    background-color: white;
+    float:left;
+}
+.searchIcon {
+    width: 10%;
+    height:33%;
+    background-color: red;
+    background-image: url("https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 30px 20px; /* Resize the background image to cover the entire container */
+    float:left;
+}
+.cart {
+
+    float:right;
+    text-align: right;
+    padding-right: 20px;
+}
+.cartTop {
+    width:100%;
+    height: 50%;
+    float:right;
+    color: white;
+
+}
+.cartBottom {
+    width:100%;
+    height: 50%;
+    float:right;
+    color: white;
+}
+.cartIcon {
+    width: 20%;
+    height:30px;
+    padding-top: 20px;
+    background-color: white;
+    background-image: url("http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 30px 20px; /* Resize the background image to cover the entire container */ 
+    float:right;
+}
+.cartText {
+    width: 70%;
+    float: right;
+    padding-right: 20px;
+}  
+.navName {
+    padding: 18% 0% 0% 0%;
+}
